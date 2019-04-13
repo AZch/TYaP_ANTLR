@@ -7,13 +7,13 @@ prog
 
 one_desc
     :   data
-    |   class
-    |   'void main()' desc_fun
-    |   const
+    |   classStr
+    |   'void main() ' desc_fun
+    |   constStr
     ;
 
-class
-    :   'class' id '{' desc_class '};'
+classStr
+    :   'class ' id ' {' desc_class '};'
     ;
 
 desc_class
@@ -22,9 +22,10 @@ desc_class
     ;
 
 type
-    :   'int'
-    |   'char'
-    |   id
+    :   'int '
+    |   'char '
+    |   id ' '
+
     ;
 
 id
@@ -61,6 +62,11 @@ num
     |   '9'
     ;
 
+many_num
+    :   many_num num
+    |   num
+    ;
+
 data
     :   type list ';'
     ;
@@ -90,6 +96,7 @@ array_size_num
 
 may_assign
     :   '=' expression
+    |
     ;
 
 expression
@@ -106,7 +113,7 @@ many_expression1
     |
     ;
 
-const
+constStr
     :   'const' type id '=' num ';'
     ;
 
@@ -156,7 +163,7 @@ a4_
 
 a5
     :   id
-    |   num
+    |   many_num
     |   id_intern_elem
     |   '(' a1 ')'
     ;
@@ -172,7 +179,7 @@ content_desc
 
 desc
     :   data
-    |   const
+    |   constStr
     |   operator
     ;
 
