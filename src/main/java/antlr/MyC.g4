@@ -63,8 +63,12 @@ num
     ;
 
 many_num
-    :   many_num num
-    |   num
+    :   num many_num1
+    ;
+
+many_num1
+    :   num many_num1
+    |
     ;
 
 data
