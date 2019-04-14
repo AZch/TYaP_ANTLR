@@ -35,11 +35,6 @@ list
     :   variable (',' variable)*
     ;
 
-list1
-    :   ',' variable list1
-    |   // empty
-    ;
-
 variable
     :   Ident size_array may_assign
     ;
