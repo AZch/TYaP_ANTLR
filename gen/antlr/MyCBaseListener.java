@@ -100,18 +100,6 @@ public class MyCBaseListener implements MyCListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterList1(MyCParser.List1Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitList1(MyCParser.List1Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
 	@Override public void enterVariable(MyCParser.VariableContext ctx) { }
 	/**
 	 * {@inheritDoc}

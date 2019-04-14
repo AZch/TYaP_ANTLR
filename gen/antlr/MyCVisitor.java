@@ -53,12 +53,6 @@ public interface MyCVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitList(MyCParser.ListContext ctx);
 	/**
-	 * Visit a parse tree produced by {@link MyCParser#list1}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitList1(MyCParser.List1Context ctx);
-	/**
 	 * Visit a parse tree produced by {@link MyCParser#variable}.
 	 * @param ctx the parse tree
 	 * @return the visitor result

@@ -2,7 +2,7 @@ grammar MyC;
 
 prog
     :   one_desc prog
-    |   // end prog
+    |   '###' // end
     ;
 
 one_desc

@@ -78,16 +78,6 @@ public interface MyCListener extends ParseTreeListener {
 	 */
 	void exitList(MyCParser.ListContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link MyCParser#list1}.
-	 * @param ctx the parse tree
-	 */
-	void enterList1(MyCParser.List1Context ctx);
-	/**
-	 * Exit a parse tree produced by {@link MyCParser#list1}.
-	 * @param ctx the parse tree
-	 */
-	void exitList1(MyCParser.List1Context ctx);
-	/**
 	 * Enter a parse tree produced by {@link MyCParser#variable}.
 	 * @param ctx the parse tree
 	 */
