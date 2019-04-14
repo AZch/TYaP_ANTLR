@@ -41,42 +41,6 @@ public interface MyCVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitType(MyCParser.TypeContext ctx);
 	/**
-	 * Visit a parse tree produced by {@link MyCParser#id}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitId(MyCParser.IdContext ctx);
-	/**
-	 * Visit a parse tree produced by {@link MyCParser#letter}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitLetter(MyCParser.LetterContext ctx);
-	/**
-	 * Visit a parse tree produced by {@link MyCParser#endL}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitEndL(MyCParser.EndLContext ctx);
-	/**
-	 * Visit a parse tree produced by {@link MyCParser#num}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitNum(MyCParser.NumContext ctx);
-	/**
-	 * Visit a parse tree produced by {@link MyCParser#many_num}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitMany_num(MyCParser.Many_numContext ctx);
-	/**
-	 * Visit a parse tree produced by {@link MyCParser#many_num1}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitMany_num1(MyCParser.Many_num1Context ctx);
-	/**
 	 * Visit a parse tree produced by {@link MyCParser#data}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
@@ -131,12 +95,6 @@ public interface MyCVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitMany_expression(MyCParser.Many_expressionContext ctx);
 	/**
-	 * Visit a parse tree produced by {@link MyCParser#many_expression1}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitMany_expression1(MyCParser.Many_expression1Context ctx);
-	/**
 	 * Visit a parse tree produced by {@link MyCParser#constStr}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
@@ -149,23 +107,11 @@ public interface MyCVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitA1(MyCParser.A1Context ctx);
 	/**
-	 * Visit a parse tree produced by {@link MyCParser#a1_}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitA1_(MyCParser.A1_Context ctx);
-	/**
 	 * Visit a parse tree produced by {@link MyCParser#a2}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
 	T visitA2(MyCParser.A2Context ctx);
-	/**
-	 * Visit a parse tree produced by {@link MyCParser#a2_}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitA2_(MyCParser.A2_Context ctx);
 	/**
 	 * Visit a parse tree produced by {@link MyCParser#a3}.
 	 * @param ctx the parse tree
@@ -173,23 +119,11 @@ public interface MyCVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitA3(MyCParser.A3Context ctx);
 	/**
-	 * Visit a parse tree produced by {@link MyCParser#a3_}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitA3_(MyCParser.A3_Context ctx);
-	/**
 	 * Visit a parse tree produced by {@link MyCParser#a4}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
 	T visitA4(MyCParser.A4Context ctx);
-	/**
-	 * Visit a parse tree produced by {@link MyCParser#a4_}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitA4_(MyCParser.A4_Context ctx);
 	/**
 	 * Visit a parse tree produced by {@link MyCParser#a5}.
 	 * @param ctx the parse tree
@@ -233,23 +167,17 @@ public interface MyCVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitId_intern_elem(MyCParser.Id_intern_elemContext ctx);
 	/**
-	 * Visit a parse tree produced by {@link MyCParser#id_intern_elem1}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitId_intern_elem1(MyCParser.Id_intern_elem1Context ctx);
-	/**
 	 * Visit a parse tree produced by {@link MyCParser#elem_array}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
 	T visitElem_array(MyCParser.Elem_arrayContext ctx);
 	/**
-	 * Visit a parse tree produced by {@link MyCParser#if}.
+	 * Visit a parse tree produced by {@link MyCParser#ifGrammar}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitIf(MyCParser.IfContext ctx);
+	T visitIfGrammar(MyCParser.IfGrammarContext ctx);
 	/**
 	 * Visit a parse tree produced by {@link MyCParser#may_else}.
 	 * @param ctx the parse tree

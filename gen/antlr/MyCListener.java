@@ -58,66 +58,6 @@ public interface MyCListener extends ParseTreeListener {
 	 */
 	void exitType(MyCParser.TypeContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link MyCParser#id}.
-	 * @param ctx the parse tree
-	 */
-	void enterId(MyCParser.IdContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link MyCParser#id}.
-	 * @param ctx the parse tree
-	 */
-	void exitId(MyCParser.IdContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link MyCParser#letter}.
-	 * @param ctx the parse tree
-	 */
-	void enterLetter(MyCParser.LetterContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link MyCParser#letter}.
-	 * @param ctx the parse tree
-	 */
-	void exitLetter(MyCParser.LetterContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link MyCParser#endL}.
-	 * @param ctx the parse tree
-	 */
-	void enterEndL(MyCParser.EndLContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link MyCParser#endL}.
-	 * @param ctx the parse tree
-	 */
-	void exitEndL(MyCParser.EndLContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link MyCParser#num}.
-	 * @param ctx the parse tree
-	 */
-	void enterNum(MyCParser.NumContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link MyCParser#num}.
-	 * @param ctx the parse tree
-	 */
-	void exitNum(MyCParser.NumContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link MyCParser#many_num}.
-	 * @param ctx the parse tree
-	 */
-	void enterMany_num(MyCParser.Many_numContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link MyCParser#many_num}.
-	 * @param ctx the parse tree
-	 */
-	void exitMany_num(MyCParser.Many_numContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link MyCParser#many_num1}.
-	 * @param ctx the parse tree
-	 */
-	void enterMany_num1(MyCParser.Many_num1Context ctx);
-	/**
-	 * Exit a parse tree produced by {@link MyCParser#many_num1}.
-	 * @param ctx the parse tree
-	 */
-	void exitMany_num1(MyCParser.Many_num1Context ctx);
-	/**
 	 * Enter a parse tree produced by {@link MyCParser#data}.
 	 * @param ctx the parse tree
 	 */
@@ -208,16 +148,6 @@ public interface MyCListener extends ParseTreeListener {
 	 */
 	void exitMany_expression(MyCParser.Many_expressionContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link MyCParser#many_expression1}.
-	 * @param ctx the parse tree
-	 */
-	void enterMany_expression1(MyCParser.Many_expression1Context ctx);
-	/**
-	 * Exit a parse tree produced by {@link MyCParser#many_expression1}.
-	 * @param ctx the parse tree
-	 */
-	void exitMany_expression1(MyCParser.Many_expression1Context ctx);
-	/**
 	 * Enter a parse tree produced by {@link MyCParser#constStr}.
 	 * @param ctx the parse tree
 	 */
@@ -238,16 +168,6 @@ public interface MyCListener extends ParseTreeListener {
 	 */
 	void exitA1(MyCParser.A1Context ctx);
 	/**
-	 * Enter a parse tree produced by {@link MyCParser#a1_}.
-	 * @param ctx the parse tree
-	 */
-	void enterA1_(MyCParser.A1_Context ctx);
-	/**
-	 * Exit a parse tree produced by {@link MyCParser#a1_}.
-	 * @param ctx the parse tree
-	 */
-	void exitA1_(MyCParser.A1_Context ctx);
-	/**
 	 * Enter a parse tree produced by {@link MyCParser#a2}.
 	 * @param ctx the parse tree
 	 */
@@ -257,16 +177,6 @@ public interface MyCListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitA2(MyCParser.A2Context ctx);
-	/**
-	 * Enter a parse tree produced by {@link MyCParser#a2_}.
-	 * @param ctx the parse tree
-	 */
-	void enterA2_(MyCParser.A2_Context ctx);
-	/**
-	 * Exit a parse tree produced by {@link MyCParser#a2_}.
-	 * @param ctx the parse tree
-	 */
-	void exitA2_(MyCParser.A2_Context ctx);
 	/**
 	 * Enter a parse tree produced by {@link MyCParser#a3}.
 	 * @param ctx the parse tree
@@ -278,16 +188,6 @@ public interface MyCListener extends ParseTreeListener {
 	 */
 	void exitA3(MyCParser.A3Context ctx);
 	/**
-	 * Enter a parse tree produced by {@link MyCParser#a3_}.
-	 * @param ctx the parse tree
-	 */
-	void enterA3_(MyCParser.A3_Context ctx);
-	/**
-	 * Exit a parse tree produced by {@link MyCParser#a3_}.
-	 * @param ctx the parse tree
-	 */
-	void exitA3_(MyCParser.A3_Context ctx);
-	/**
 	 * Enter a parse tree produced by {@link MyCParser#a4}.
 	 * @param ctx the parse tree
 	 */
@@ -297,16 +197,6 @@ public interface MyCListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitA4(MyCParser.A4Context ctx);
-	/**
-	 * Enter a parse tree produced by {@link MyCParser#a4_}.
-	 * @param ctx the parse tree
-	 */
-	void enterA4_(MyCParser.A4_Context ctx);
-	/**
-	 * Exit a parse tree produced by {@link MyCParser#a4_}.
-	 * @param ctx the parse tree
-	 */
-	void exitA4_(MyCParser.A4_Context ctx);
 	/**
 	 * Enter a parse tree produced by {@link MyCParser#a5}.
 	 * @param ctx the parse tree
@@ -378,16 +268,6 @@ public interface MyCListener extends ParseTreeListener {
 	 */
 	void exitId_intern_elem(MyCParser.Id_intern_elemContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link MyCParser#id_intern_elem1}.
-	 * @param ctx the parse tree
-	 */
-	void enterId_intern_elem1(MyCParser.Id_intern_elem1Context ctx);
-	/**
-	 * Exit a parse tree produced by {@link MyCParser#id_intern_elem1}.
-	 * @param ctx the parse tree
-	 */
-	void exitId_intern_elem1(MyCParser.Id_intern_elem1Context ctx);
-	/**
 	 * Enter a parse tree produced by {@link MyCParser#elem_array}.
 	 * @param ctx the parse tree
 	 */
@@ -398,15 +278,15 @@ public interface MyCListener extends ParseTreeListener {
 	 */
 	void exitElem_array(MyCParser.Elem_arrayContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link MyCParser#if}.
+	 * Enter a parse tree produced by {@link MyCParser#ifGrammar}.
 	 * @param ctx the parse tree
 	 */
-	void enterIf(MyCParser.IfContext ctx);
+	void enterIfGrammar(MyCParser.IfGrammarContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link MyCParser#if}.
+	 * Exit a parse tree produced by {@link MyCParser#ifGrammar}.
 	 * @param ctx the parse tree
 	 */
-	void exitIf(MyCParser.IfContext ctx);
+	void exitIfGrammar(MyCParser.IfGrammarContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link MyCParser#may_else}.
 	 * @param ctx the parse tree

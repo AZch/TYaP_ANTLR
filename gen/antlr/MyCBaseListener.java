@@ -76,78 +76,6 @@ public class MyCBaseListener implements MyCListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterId(MyCParser.IdContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitId(MyCParser.IdContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterLetter(MyCParser.LetterContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitLetter(MyCParser.LetterContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterEndL(MyCParser.EndLContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitEndL(MyCParser.EndLContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterNum(MyCParser.NumContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitNum(MyCParser.NumContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterMany_num(MyCParser.Many_numContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitMany_num(MyCParser.Many_numContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterMany_num1(MyCParser.Many_num1Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitMany_num1(MyCParser.Many_num1Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
 	@Override public void enterData(MyCParser.DataContext ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -256,18 +184,6 @@ public class MyCBaseListener implements MyCListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterMany_expression1(MyCParser.Many_expression1Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitMany_expression1(MyCParser.Many_expression1Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
 	@Override public void enterConstStr(MyCParser.ConstStrContext ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -292,18 +208,6 @@ public class MyCBaseListener implements MyCListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterA1_(MyCParser.A1_Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitA1_(MyCParser.A1_Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
 	@Override public void enterA2(MyCParser.A2Context ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -311,18 +215,6 @@ public class MyCBaseListener implements MyCListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitA2(MyCParser.A2Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterA2_(MyCParser.A2_Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitA2_(MyCParser.A2_Context ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -340,18 +232,6 @@ public class MyCBaseListener implements MyCListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterA3_(MyCParser.A3_Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitA3_(MyCParser.A3_Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
 	@Override public void enterA4(MyCParser.A4Context ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -359,18 +239,6 @@ public class MyCBaseListener implements MyCListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitA4(MyCParser.A4Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterA4_(MyCParser.A4_Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitA4_(MyCParser.A4_Context ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -460,18 +328,6 @@ public class MyCBaseListener implements MyCListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterId_intern_elem1(MyCParser.Id_intern_elem1Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitId_intern_elem1(MyCParser.Id_intern_elem1Context ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
 	@Override public void enterElem_array(MyCParser.Elem_arrayContext ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -484,13 +340,13 @@ public class MyCBaseListener implements MyCListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterIf(MyCParser.IfContext ctx) { }
+	@Override public void enterIfGrammar(MyCParser.IfGrammarContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitIf(MyCParser.IfContext ctx) { }
+	@Override public void exitIfGrammar(MyCParser.IfGrammarContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
