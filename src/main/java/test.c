@@ -1,36 +1,18 @@
-int b=5*2;
-
-class ad {
-int aa;
-char bC;
-};
-
-
 void main() {
-ad c;
-c.aa=45;
-c.aa=45;
-int a;
-a=3*((4+c.aa)-(7/9))-(16*10)+99;
+int a=2*3+4-5/6-7*8+9;
+a=2*3+4-5/6-7*8+9;
 
-if(a+15>0){
-c.aa=40;
-int AA=7;
-int b=10+AA;
-if(c.aa>c.bC)
-c.bC=32;
-if(AA>b){
-int AAAA=5;
-AAAA=(32*3)+84;
-}
+if(a<41){
+a=7;
 }else{
-c.aa=40;
-int ACAB=808;
-ACAB=90+52;
+if(a<0){
+a=6;
+}else{
+a=8;
 }
-
-a=3*((4+5)-(7/9))-(16*10)+99;
-a=c.aa;
+}
+int b=5;
+b=345;
 
 
 }
